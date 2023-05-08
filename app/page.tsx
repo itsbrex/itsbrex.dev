@@ -1,5 +1,4 @@
 import Link from "next/link";
-import React from "react";
 import Particles from "./components/particles";
 
 const navigation = [
@@ -29,32 +28,31 @@ export default function Home() {
 				quantity={100}
 			/>
 			<h1 className="z-10 text-4xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display sm:text-6xl md:text-9xl whitespace-nowrap bg-clip-text ">
-				chronark
+				itsbrex
 			</h1>
 
 			<div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
 			<div className="my-16 text-center animate-fade-in">
 				<h2 className="text-sm text-zinc-500 ">
-					Hi, my name is Andreas, I'm building serverless and open source
-					solutions at{" "}
+					Hi, my name is Brian. I'm a Technical Product Manager prev. at{" "}
 					<Link
 						target="_blank"
-						href="https://upstash.com"
+						href="https://bigo.sg"
 						className="underline duration-500 hover:text-zinc-300"
 					>
-						Upstash
+						Bigo Live.
 					</Link>
 
 					<br />
-					and working on{" "}
+					Currently building{" "}
 					<Link
 						target="_blank"
-						href="https://planetfall.io"
+						href="https://ableton.ai"
 						className="underline duration-500 hover:text-zinc-300"
 					>
-						planetfall.io
+						ableton.ai
 					</Link>{" "}
-					at night.
+					but am open to new opportunities.
 				</h2>
 			</div>
 		</div>
