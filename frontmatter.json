@@ -5,6 +5,8 @@
       "name": "default",
       "pageBundle": false,
       "previewPath": null,
+      "fileType": "mdx",
+      "defaultFileName": "{{title}}",
       "fields": [
         {
           "title": "Title",
