@@ -34,25 +34,17 @@ export default function Home() {
 			<div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
 			<div className="my-16 text-center animate-fade-in">
 				<h2 className="text-sm text-zinc-500 ">
-					Hi, my name is Brian. I'm a Technical Product Manager prev. at{" "}
-					<Link
-						target="_blank"
-						href="https://bigo.sg"
-						className="underline duration-500 hover:text-zinc-300"
-					>
-						Bigo Live.
-					</Link>
-
+					Hi, my name is Brian. I'm a Technical Product Manager.
 					<br />
-					Currently building{" "}
+					Open to new opportunities. Please {" "}
 					<Link
 						target="_blank"
-						href="https://ableton.ai"
+						href="https://linkedin.com/in/itsbrianroach"
 						className="underline duration-500 hover:text-zinc-300"
 					>
-						ableton.ai
+						reach out
 					</Link>{" "}
-					but am open to new opportunities.
+					if you think I may be a good fit on your team!
 				</h2>
 			</div>
 		</div>

@@ -1,0 +1,46 @@
+---
+title: vercel-env-create
+description: "Auto-generate and maintain your project's .env files"
+date: 2023-02-24T01:11:36.852Z
+published: true
+---
+
+
+Easily manage your local and Vercel deployment environment variables for `local`, `development`, `preview`, and `production`.
+
+`vercel-env-create` is a Node.js script that scans your project for all referenced `process.env` variables and creates separate `.env` files each environment in the root of your project's directory.
+
+This makes it easy to manage your local development and test environments, as well as each of your Vercel deployment environments (`development`, `preview`, and `production`).
+
+## Installation
+
+You can install this package using `npm`:
+
+```bash
+npm install -g vercel-env-create
+```
+
+## Usage
+
+If you installed globally, you can use it in your project directory like this to either create or update your .env files with all of the variables used in your project:
+
+```bash
+vercel-env-create
+```
+
+Or you can install via `npx`:
+
+```bash
+npx vercel-env-create
+```
+
+By default, the script will look for environment variables in files with the following extensions: `.js`, `.ts`, `.jsx`, `.tsx`, `.html`, and `.css`. You can add additional file extensions to search for by modifying the `extensions` array in the script.
+
+The script will create the following .env files in your project directory:
+
+- `.env` - for your default environment
+- `.env.local` - for your local development environment
+- `.env.development` - for your development environment
+- `.env.production` - for your production environment
+
+This makes it easy to manage separate environment variables for each environment and ensures that all environment variables in your project are appropriately defined.
