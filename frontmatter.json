@@ -19,31 +19,19 @@
           "type": "string"
         },
         {
-          "title": "Publishing date",
-          "name": "date",
-          "type": "datetime",
-          "default": "{{now}}",
-          "isPublishDate": true
+          "title": "URL",
+          "name": "url",
+          "type": "string"
         },
         {
-          "title": "Content preview",
-          "name": "preview",
-          "type": "image"
+          "title": "Repository",
+          "name": "repository",
+          "type": "string"
         },
         {
-          "title": "Is in draft",
-          "name": "draft",
-          "type": "draft"
-        },
-        {
-          "title": "Tags",
-          "name": "tags",
-          "type": "tags"
-        },
-        {
-          "title": "Categories",
-          "name": "categories",
-          "type": "categories"
+          "title": "Published",
+          "name": "published",
+          "type": "boolean"
         }
       ]
     }
@@ -52,5 +40,11 @@
   "frontMatter.content.publicFolder": "public",
   "frontMatter.preview.host": "http://localhost:3000",
   "frontMatter.taxonomy.tags": [],
-  "frontMatter.taxonomy.categories": []
+  "frontMatter.taxonomy.categories": [],
+  "frontMatter.content.pageFolders": [
+    {
+      "path": "[[workspace]]/content/projects",
+      "title": "{{title}}"
+    }
+  ]
 }
