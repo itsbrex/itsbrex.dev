@@ -3,8 +3,20 @@
 @tailwind utilities;
 
 @layer base {
+  .gradient-text {
+    background-image: linear-gradient(to right, #FF4D4D, #F9CB28); /* update these colors to match your desired gradient */
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
   .text-edge-outline {
     -webkit-text-stroke: 1px rgba(255,255,255,0.3);
+    /* -webkit-text-stroke: 1px rgba(0,0,0,0.3); */
+    padding-bottom: 0.1em;
+    margin-bottom: -0.1em;
+  }
+  h1 {
+  padding-bottom: 0.1em;
+  margin-bottom: -0.1em;
   }
 } 
-
