@@ -1,0 +1,19 @@
+---
+title: Batch Convert Rekordbox Cue Points to Ableton Warp Markers
+description: This project allows splitting your exported Rekordbox XML file into individual XML files for each song, useful for setting Ableton warp markers.
+url: https://github.com/itsbrex/batch-rekorkbox-to-ableton
+repository: https://github.com/itsbrex/batch-rekorkbox-to-ableton
+published: true
+---
+
+This project allows you to split your exported Rekordbox XML file into individual XML files for each song. Each XML file will contain track information and cue points which can be used to set Ableton warp markers.
+
+It is currently in development, but it's already capable of parsing the Rekordbox XML library file and creating individual XML files for each track containing cue points. It can also automatically handle invalid file name characters.
+
+In order to use it, you will need Python 3.x and a Rekordbox XML library file. You can then set the `input_file` variable to the path of your Rekordbox XML library file and the `output_folder` variable to the desired location for the individual track XML files. Running the `rb_to_als.py` script with Python 3.x will process each track in your Rekordbox `library.xml` file and generate individual XML files containing track information and cue points. You can then use these XML files to set Ableton warp markers for your tracks.
+
+There are plans to automate creating Ableton `.als` project files for each song to batch convert Rekordbox cue points to Ableton warp markers with `convert_cuepoints.py`, as well as add support for Rekordbox phrases.
+
+As always, backup your Rekordbox library and Ableton projects before using this script.
+
+Contributions are welcomed, and you can find more details about the license and how to sponsor this project in the [repository](https://github.com/itsbrex/batch-rekorkbox-to-ableton).
