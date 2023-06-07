@@ -38,3 +38,5 @@ next-env.d.ts
 .contentlayer
 .env
 .history
+global.css
+app/repo_index.md
