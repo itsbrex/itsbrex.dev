@@ -9,10 +9,10 @@ export const metadata: Metadata = {
 		default: "itsbrex.dev",
 		template: "%s | itsbrex.dev",
 	},
-	description: "Technical Prouduct Manager & Software Engineer",
+	description: "Product Engineer with 10 years of experience in end-to-end User Experience (UX) innovation.",
 	openGraph: {
 		title: "itsbrex.dev",
-		description: "Technical Prouduct Manager & Software Engineer",
+		description: "Senior Prouduct Manager & Innovation Engineer",
 		url: "https://itsbrex.dev",
 		siteName: "itsbrex.dev",
 		images: [
@@ -62,9 +62,8 @@ export default function RootLayout({
 	return (
 		<html lang="en" className={[inter.variable, calSans.variable].join(" ")}>
 			<body
-				className={`bg-black ${
-					process.env.NODE_ENV === "development" ? "debug-screens" : undefined
-				}`}
+				className={`bg-black ${process.env.NODE_ENV === "development" ? "debug-screens" : undefined
+					}`}
 			>
 				<Analytics />
 				{children}

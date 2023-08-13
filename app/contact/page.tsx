@@ -1,5 +1,5 @@
 "use client";
-import { Github, Mail, Twitter, Linkedin } from "lucide-react";
+import { Github, Linkedin, Mail, Twitter } from "lucide-react";
 import Link from "next/link";
 import { Card } from "../components/card";
 import { Navigation } from "../components/nav";
@@ -19,7 +19,7 @@ const socials = [
 	},
 	{
 		icon: <Linkedin size={20} />,
-		href: "https://linkedin.com/in/itsbrianroach",
+		href: "https://linkedin.com/in/itsbrex",
 		label: "LinkedIn",
 		handle: "itsbrianroach",
 	},

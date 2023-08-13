@@ -40,3 +40,8 @@ next-env.d.ts
 .history
 global.css
 app/repo_index.md
+
+.vscode
+package-lock.json
+pnpm-lock.yaml
+scratchpad
