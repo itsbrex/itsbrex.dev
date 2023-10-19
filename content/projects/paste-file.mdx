@@ -1,23 +1,23 @@
 ---
-title: Clip-to-File
+title: paste-file
 description: Save the content of your clipboard directly to a file.
-url: "https://github.com/your-username/clip-to-file"
-repository: "https://github.com/your-username/clip-to-file"
+url: "https://github.com/itsbrex/paste-file"
+repository: "https://github.com/itsbrex/paste-file"
 published: true
 ---
 
-ClipToFile is a handy Python script that simplifies the task of saving clipboard content to a file. Whether you need to store information copied from different sources or want a quick backup of your clipboard data, this script has got you covered. Specifically designed for MacOS users, it utilizes AppleScript to seamlessly interact with Finder for path retrieval and dialog display.
+`paste-file` is a handy Python script that simplifies the task of saving clipboard content to a file. Whether you need to store information copied from different sources or want a quick backup of your clipboard data, this script has got you covered. Specifically designed for MacOS users, it utilizes AppleScript to seamlessly interact with Finder for path retrieval and dialog display.
 
 To get started, make sure you have the necessary Python libraries installed. You can easily install them by running the following command:
 
-```
+```shell
 pip install -r requirements.txt
 ```
 
 Once the dependencies are installed, you can execute the script from the terminal using the following command:
 
-```
-python3 clipToFile.py [-ph/--paste-here] [-f/--folder <folder_name>]
+```shell
+python3 paste-file.py [-ph/--paste-here] [-f/--folder <folder_name>]
 ```
 
 The script supports the following arguments:
@@ -28,4 +28,4 @@ The script supports the following arguments:
 
 If no arguments are provided, the script will display a dialog box asking for the file name and save the clipboard content in the directory of the active Finder window. If there are no open Finder windows, the file will be saved on the desktop.
 
-Give ClipToFile a try and streamline your clipboard management workflow today! For more details and to access the source code, visit the [ClipToFile GitHub repository](https://github.com/your-username/clip-to-file).
+Give paste-file a try and streamline your clipboard management workflow today! For more details and to access the source code, visit the [paste-file GitHub repository](https://github.com/itsbrex/paste-file).
