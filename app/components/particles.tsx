@@ -190,9 +190,7 @@ export default function Particles({
       );
       if (remapClosestEdge > 1) {
         circle.alpha += 0.02;
-        if (circle.alpha > circle.targetAlpha) {
-          circle.alpha = circle.targetAlpha;
-        }
+        circle.alpha = Math.min(circle.alpha, circle.targetAlpha);
       } else {
         circle.alpha = circle.targetAlpha * remapClosestEdge;
       }

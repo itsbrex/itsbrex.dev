@@ -35,23 +35,24 @@ export default function Home() {
       <div className="hidden w-screen h-px align-middle animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
       <div className="my-16 text-center animate-fade-in">
         <h2 className="text-lg text-zinc-500 ">
-          Hi, I'm Brian 👋, I'm currently CTO at {" "}
+          Hi, I'm Brian 👋, former CTO and Technical Product Manager at {" "}
           <Link
             target="_blank"
             href="https://starchildmusic.ai"
             className="underline duration-500 hover:text-zinc-300"
           >
             Starchild Music
-          </Link> where we're building SOTA music generation and augmentation tools.
+          </Link> where we were building SOTA music generation and augmentation tools.
           <br />
           Actively looking for {" "}
           <Link
             target="_blank"
-            href="https://linkedin.com/in/itsbrex"
+            href="https://linkedin.com/in/brian-roach-/"
             className="underline duration-500 hover:text-zinc-300"
           >
-            full-time opportunity
-          </Link>{" "}while we bootstrap.
+            full-time opportunities
+          </Link>{" "}
+          at a forward-thinking company.
         </h2>
       </div>
     </div>
